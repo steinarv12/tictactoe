@@ -25,7 +25,9 @@ bower install
 echo "Running grunt"
 grunt
 
-echo "Giving permission to docker to user" whoami
+echo "Giving permission to docker to user" 
+
+whoami
 
 sudo sudo usermod -a -G docker whoami
 
