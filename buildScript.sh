@@ -27,7 +27,7 @@ grunt
 
 echo "Giving permission to docker to user: $USER"
 
-usermod -a -G docker go
+/usr/sbin/usermod -a -G docker go
 
 cp ./Dockerfile ./dist/
 
