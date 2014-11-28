@@ -4,16 +4,16 @@ rm -rf ./dist
 ln -s /usr/bin/nodejs /usr/bin/node
 
 echo "Installing npm..."
-apt-get install npm
+sudo apt-get install npm
 
 echo "Installing grunt cli"
-npm install grunt-cli -g
+sudo npm install grunt-cli -g
 
 echo "Installing grunt"
 npm install grunt
 
 echo "Installing bower"
-npm install bower
+sudo npm install bower -g
 
 echo "Npm install"
 npm install
@@ -33,9 +33,9 @@ echo "Npm install production..."
 npm install --production
 
 echo "Building docker image..."
-docker build -t arnif/tictactoe .
+docker build -t steinarv12/tictactoe .
 
 echo "Pushing docker image..."
-docker push arnif/tictactoe
+docker push steinarv12/tictactoe
 
 echo "Done"
