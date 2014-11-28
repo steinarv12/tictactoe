@@ -42,7 +42,7 @@ Docker setup and installation
 * ensure you have latest node/npm
 * edit dockerbuild.sh
   * line “docker build -t gulli/tictactoe ./dist/“
-  * change gulli to <yourname>
+  * change gulli to your docker username
 * make sure docker is running (boot2docker)
 * run 
 ``` 
