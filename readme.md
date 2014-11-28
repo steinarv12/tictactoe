@@ -46,7 +46,7 @@ Docker setup and installation
 * make sure docker is running (boot2docker on Windows)
 * run 
 ``` 
-./dockerbuild
+./dockerbuild.sh
 ``` 
 * run 
 ``` 
