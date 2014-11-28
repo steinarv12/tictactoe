@@ -38,4 +38,4 @@ docker build -t steinarv12/tictactoe .
 echo "Pushing docker image..."
 docker push steinarv12/tictactoe
 
-echo "Done"
+echo "Done!"
