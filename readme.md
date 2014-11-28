@@ -43,7 +43,7 @@ Docker setup and installation
 * edit dockerbuild.sh
   * line “docker build -t gulli/tictactoe ./dist/“
   * change gulli to your docker username
-* make sure docker is running (boot2docker)
+* make sure docker is running (boot2docker on Windows)
 * run 
 ``` 
 ./dockerbuild
